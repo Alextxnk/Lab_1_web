@@ -119,6 +119,7 @@ nav {
    width: 100%;
    background: #ffffff;
    box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2);
+   margin-bottom: 1.5rem;
 }
 
 .nav-ul {
