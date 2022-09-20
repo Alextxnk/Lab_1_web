@@ -20,68 +20,18 @@ body {
    text-align: left;
 }
 
-.nav-ul {
-   list-style-type: none;
-   text-align: left;
-   padding: 0px;
-   /* чтоб было по центру */
-   height: 56px;
-   /* padding-top: 20px;
-   padding-bottom: 20px; */
-   padding: 0.5rem 1rem;
-   margin: 0 0 0 60px;
-}
-
-.nav-li {
-   display: inline;
-   margin-right: 100px;
-}
-
-.navbar-brand {
-   display: inline-block;
-   padding-top: 0.3125rem;
-   padding-bottom: 0.3125rem;
-   margin-right: 1rem;
-   font-size: 1.25rem;
-   color: rgba(0, 0, 0, .9);
-   line-height: inherit;
-}
-
 a {
    color: #858796;
    text-decoration: none;
 }
 
-.about-li .active {
-   color: #ffffff;
-   font-weight: 700;
-}
-
-/* пример использования псевдокласса */
-.nav-li:last-child {
-   margin-right: 0px;
-   /* с помощью псевдоклассов мы можем избавиться от margin-right у последнего элемента списка li */
-}
-
+/* main  */
 main {
-   display: flex;
-}
-
-.navbar {
-   width: 100%;
-   background: #ffffff;
-   box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2);
-}
-
-.content {
-   flex: 1 0 auto;
-}
-
-.main {
    display: flex;
    justify-content: space-between;
 }
 
+/* section-about */
 .section-about {
    height: 100vh;
    width: 15%;
@@ -104,6 +54,16 @@ main {
    color: rgba(255, 255, 255, 0.8);
 }
 
+.about-li .active {
+   color: #ffffff;
+   font-weight: 700;
+}
+
+.not-active:hover {
+   color: #ffffff;
+}
+
+/* fa */
 .fa {
    position: relative;
 }
@@ -134,25 +94,6 @@ main {
    margin-right: 0.25rem;
 }
 
-/* .not-active {
-   position: relative;
-}
-
-.not-active::after {
-   content: '\f105';
-   font-family: FontAwesome;
-   width: 1rem;
-   text-align: center;
-   float: right;
-   vertical-align: 0;
-   border: 0;
-   font-weight: 900;
-} */
-
-.not-active:hover {
-   color: #ffffff;
-}
-
 .sidebar-divider {
    border: none;
    /* Убираем границу для браузера Firefox */
@@ -165,7 +106,7 @@ main {
    overflow: visible;
 }
 
-
+/* section-main */
 .section-main {
    display: flex;
    flex-direction: column;
@@ -174,6 +115,46 @@ main {
    color: #858796;
 }
 
+nav {
+   width: 100%;
+   background: #ffffff;
+   box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2);
+}
+
+.nav-ul {
+   list-style-type: none;
+   text-align: left;
+   padding: 0px;
+   /* чтоб было по центру */
+   height: 56px;
+   padding: 0.5rem 1rem;
+   margin: 0 0 0 60px;
+}
+
+.nav-li {
+   display: inline;
+   margin-right: 100px;
+}
+
+.nav-li:last-child {
+   margin-right: 0px;
+}
+
+.navbar-brand {
+   display: inline-block;
+   padding-top: 0.3125rem;
+   padding-bottom: 0.3125rem;
+   margin-right: 1rem;
+   font-size: 1.25rem;
+   color: rgba(0, 0, 0, .9);
+   line-height: inherit;
+}
+
+.content {
+   flex: 1 0 auto;
+}
+
+/* footer */
 footer {
    flex: 0 0 auto;
    height: 76px;
