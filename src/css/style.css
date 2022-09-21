@@ -155,6 +155,94 @@ nav {
    flex: 1 0 auto;
 }
 
+/* table */
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: -0.75rem;
+   margin-left: -0.75rem;
+}
+
+.card {
+   margin-left: auto !important;
+   margin-right: auto !important;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: #fff;
+   background-clip: border-box;
+   border: 1px solid #e3e6f0;
+   border-radius: 0.35rem;
+}
+
+.card-header {
+   padding: 0.75rem 1.25rem;
+   margin-bottom: 0;
+   background-color: #f8f9fc;
+   border-bottom: 1px solid #e3e6f0;
+}
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: -0.75rem;
+   margin-left: -0.75rem;
+}
+
+.col {
+   flex-basis: 0;
+   flex-grow: 1;
+   max-width: 100%;
+   position: relative;
+   width: 100%;
+   padding-right: 0.75rem;
+   padding-left: 0.75rem;
+}
+
+.h1 {
+   font-size: 1.75rem;
+   margin-bottom: 0 !important;
+   color: #5a5c69 !important;
+   font-weight: 400;
+   line-height: 1.2;
+   margin-top: 0;
+}
+
+.card-body {
+   flex: 1 1 auto;
+   min-height: 1px;
+   padding: 1.25rem;
+}
+
+.table {
+   width: 100%;
+   margin-bottom: 1rem;
+   color: #858796;
+   border-collapse: collapse;
+}
+
+table {
+   border-collapse: collapse;
+}
+
+.table thead th {
+   vertical-align: bottom;
+   border-bottom: 2px solid #e3e6f0;
+}
+
+.table th {
+   padding: 0.75rem;
+   border-top: 1px solid #e3e6f0;
+}
+
+.table td {
+   padding: 0.75rem;
+   vertical-align: top;
+   border-top: 1px solid #e3e6f0;
+}
+
 /* footer */
 footer {
    flex: 0 0 auto;
