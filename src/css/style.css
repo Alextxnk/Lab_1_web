@@ -65,37 +65,6 @@ main {
    color: #ffffff;
 }
 
-/* fa */
-.fa {
-   position: relative;
-}
-
-.fa::before {
-   content: "\f625";
-   font-family: FontAwesome;
-   font-style: normal;
-   font-weight: normal;
-   text-decoration: inherit;
-   color: #ffffff;
-   font-size: 0.85rem;
-   margin-right: 0.25rem;
-}
-
-.fa-cog {
-   position: relative;
-}
-
-.fa-cog::before {
-   content: "\f013";
-   font-family: FontAwesome;
-   font-style: normal;
-   font-weight: normal;
-   text-decoration: inherit;
-   color: rgba(255, 255, 255, .3);
-   font-size: 0.85rem;
-   margin-right: 0.25rem;
-}
-
 .sidebar-divider {
    border: none;
    /* Убираем границу для браузера Firefox */
