@@ -41,7 +41,6 @@ main {
 }
 
 .about-li {
-   /* margin-left: 30px; */
    padding: 1rem;
    font-size: 0.85rem;
 }
@@ -50,9 +49,16 @@ main {
    color: rgba(255, 255, 255, 0.8);
 }
 
-.about-li .active {
-   color: #ffffff;
-   font-weight: 700;
+.logo-li {
+   padding: 0.5rem;
+   text-align: center;
+   background-color: #ffffff;
+   box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2);
+   height: 3.5rem;
+}
+
+.logo {
+   width: 70%;
 }
 
 .not-active:hover {
@@ -164,7 +170,30 @@ nav {
    background-clip: border-box;
    border: 1px solid #e3e6f0;
    border-radius: 0.35rem;
+}
+
+.card-item {
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: #fff;
+   background-clip: border-box;
+   border: 1px solid #e3e6f0;
+   border-radius: 0.35rem;
    max-width: 30%;
+}
+
+.firm-ul {
+   list-style-type: none;
+   padding-bottom: 1rem;
+}
+
+.map {
+   width: 95%;
 }
 
 .card-header {
